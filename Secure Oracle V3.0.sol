@@ -8,7 +8,7 @@ interface INNIncome {
     /// @param blockCursor blockCursor value
     function setBlockCursor(uint blockCursor) external;
     
-    /// @dev secure node transfer settlement. This method is triggered during nest node transfer and must be called by nest node contract
+    /// @dev secure node transfer settlement. This method is triggered during secure node transfer and must be called by secure node contract
     /// @param from Transfer from address
     /// @param to Transfer to address
     function settle(address from, address to) external;
