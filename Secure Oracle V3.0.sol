@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.6;
 
-/// @dev This interface defines the methods for NNIncome
-interface INNIncome {
+/// @dev This interface defines the methods for secure
+interface secure {
 
     /// @dev Reset the blockCursor
     /// @param blockCursor blockCursor value
